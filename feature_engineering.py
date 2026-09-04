@@ -1,11 +1,4 @@
-"""
-Feature engineering for predictive maintenance.
 
-For each machine's time series, computes rolling statistics (mean, std,
-min/max) and short-term trend (slope) for each sensor over a sliding window.
-Also derives the classification target: whether the machine will fail within
-the next FAILURE_WINDOW cycles.
-"""
 
 import numpy as np
 import pandas as pd

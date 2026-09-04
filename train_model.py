@@ -1,12 +1,4 @@
-"""
-Trains a classifier to predict whether a machine will fail within the next
-FAILURE_WINDOW cycles, using the engineered rolling features plus the
-unsupervised health risk score as an additional signal.
 
-Train/test split is done by machine_id (group split) so that no machine's
-cycles appear in both sets — this avoids leakage that would otherwise
-inflate accuracy.
-"""
 
 import json
 

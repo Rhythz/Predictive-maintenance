@@ -1,8 +1,4 @@
-"""
-Unsupervised anomaly detection: assigns each reading a 0-100 "health risk
-score" based on how far it deviates from normal operating behavior, using
-an Isolation Forest trained only on early-life (presumed healthy) cycles.
-"""
+
 
 import numpy as np
 import pandas as pd

@@ -1,16 +1,3 @@
-"""
-Synthetic industrial sensor data generator.
-
-Simulates a fleet of machines, each instrumented with vibration, temperature,
-and current sensors. Each machine runs for a random number of cycles, and a
-subset of machines degrade towards failure (rising vibration/temperature,
-fluctuating current) while others run healthily for the full observation
-window (censored / no failure).
-
-This mimics the structure of real predictive-maintenance datasets (e.g. NASA
-C-MAPSS) but is fully synthetic and reproducible, which keeps this project
-self-contained and free of licensing issues.
-"""
 
 import numpy as np
 import pandas as pd
